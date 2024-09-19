@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient (#D4D2D2, white);
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #ffc5fc;
+    height: 100px;
+}
+
+.footer{
+    height: 80px;
+    background-color: rgb(137, 247, 253);
+    clear: both;
+}
+
+.left{
+    height: 450px;
+    float: left;
+    background-color: rgb(251, 248, 169);
+    width: 20%;
+}
+
+.main{
+    height: 450px;
+    float: left;
+    background-color: #e0c5ff;
+    width: 60%;
+}
+
+.right{
+    height: 450px;
+    float: right;
+    background-color: #ffbdc9;
+    width: 20%;
+}
+
+.left nav {
+    font-size: 30px;
+    font-family: "Poppins",sans-serif;
+    margin: 5px;
+}
+
+.left nav ul{
+    list-style-type: none; 
+    padding: 10px; 
+    margin: 10px;
+}
+
+.left li{
+    color: #ffac47;
+    cursor: grab;
+    margin-bottom: 10px;
+}
+
+.left li:hover{
+    color: #ff8000;
+
+}
+
+.bigger:active{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
